@@ -33,7 +33,11 @@
      font-size: 3rem;
  }
 
- .i-name> :nth-child(3) {
+ .typeWriter {
+     color: rgb(237, 67, 104);
+ }
+
+ .i-name> :nth-child(4) {
      font-weight: 100;
      font-size: 14px;
      color: var(--gray);

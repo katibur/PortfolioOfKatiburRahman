@@ -1,7 +1,13 @@
 import React, { useContext, useRef, useState } from "react";
 import "./Contact.css";
+
 import emailjs from "@emailjs/browser";
 import { themeContext } from "../../Context";
+
+import Phone from "@iconscout/react-unicons/icons/uil-phone"
+import Email from "@iconscout/react-unicons/icons/uil-mailbox"
+import Home from "@iconscout/react-unicons/icons/uil-home"
+
 const Contact = () => {
     const theme = useContext(themeContext);
     const darkMode = theme.state.darkMode;
@@ -36,8 +42,9 @@ const Contact = () => {
                 <div className="contact">
                     {/* darkMode */}
                     <span style={{ color: darkMode ? 'white' : '' }}>Contact Me</span>
-                    <p>Mobile: +880 1788735788</p>
-                    <p>Email: katiburrahmansany@gmail.com</p>
+                    <p><Phone style={{ color: darkMode ? 'skyBlue' : 'red' }} size={"1rem"} /> +880 1788735788</p>
+                    <p><Email style={{ color: darkMode ? 'skyBlue' : 'red' }} size={"1rem"} /> katiburrahmansany@gmail.com</p>
+                    <p><Home style={{ color: darkMode ? 'skyBlue' : 'red' }} size={"1rem"} /> Satkhira Sadar,Satkhira,Khulna,Bangladesh</p>
                     <div
                         className="blur s-blur1"
                         style={{ background: "#ABF1FF94" }}
