@@ -50,4 +50,9 @@
     .n-list {
         display: none;
     }
+
+    .n-name {
+        font-size: 0.8rem;
+        font-weight: bold;
+    }
 }

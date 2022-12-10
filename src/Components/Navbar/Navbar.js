@@ -41,7 +41,7 @@ const Navbar = () => {
                     </ul>
                 </div>
                 <a href={Resume} download>
-                    <button className="button s-button">Download Resume</button>
+                    <button className="button n-button">Download Resume</button>
                 </a>
             </div>
         </div>

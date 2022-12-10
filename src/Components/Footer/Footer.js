@@ -11,7 +11,7 @@ const Footer = () => {
         <div className="footer">
             <img src={Wave} alt="" style={{ width: "100%" }} />
             <div className="f-content">
-                <span>Katiburrahmansany@gmail.com</span>
+                <span>All Rights Reserved By @Katibur</span>
                 <div className="f-icons">
                     <a href="https://www.instagram.com/katibur_rahman_sany" target="blank"><Insta color="white" size={"3rem"} /></a>
 

@@ -25,12 +25,12 @@
 
 @media screen and (max-width: 480px) {
     .footer {
-        margin-top: 22rem;
-        height: 15vh;
+        margin-top: 25rem;
+        height: 20vh;
     }
 
     .footer img {
-        height: 15vh;
+        height: 20vh;
     }
 
     .f-content {

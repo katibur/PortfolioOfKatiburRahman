@@ -37,6 +37,7 @@ const Services = () => {
                 <div className="blur s-blur1" style={{ background: "#ABF1FF94" }}></div>
             </div>
             {/* right */}
+
             <div className="cards">
                 {/* first card */}
                 <motion.div
@@ -50,6 +51,8 @@ const Services = () => {
                         detail={"Figma, Sketch"}
                     />
                 </motion.div>
+
+
                 {/* second card */}
                 <motion.div
                     initial={{ left: "6rem", top: "12rem" }}
@@ -62,6 +65,8 @@ const Services = () => {
                         detail={"Html, Css, JavaScript, React, Nodejs, Express"}
                     />
                 </motion.div>
+
+
                 {/* 3rd */}
                 <motion.div
                     initial={{ top: "19rem", left: "33rem" }}
