@@ -16,7 +16,7 @@ const Navbar = () => {
     const menuItems = <React.Fragment>
         <li><Link to='/'>Home</Link ></li>
         <li><Link to='/blogs'>Blogs</Link ></li>
-        <li><Link to='/about'>About</Link ></li>
+        <li><Link to='/about'>About Me</Link ></li>
         <li>
             <LinkRoll to="services" spy={true} smooth={true}>
                 Serivces

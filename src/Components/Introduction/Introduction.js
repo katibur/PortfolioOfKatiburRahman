@@ -10,7 +10,8 @@ import crown from "../../Img/crown.png";
 
 import { themeContext } from "../../Context";
 import { motion } from "framer-motion";
-import { Link } from "react-scroll";
+import { Link as LinkRoll } from 'react-router-dom';
+import { Link } from 'react-scroll'
 import FloatingDiv from "../FloatingDiv/FloatingDiv";
 
 
@@ -57,7 +58,7 @@ const Introduction = () => {
                     </span>
                 </div>
                 <Link to="contact" smooth={true} spy={true}>
-                    <button className="button i-button">Hire me</button>
+                    <button className="button i-button"><LinkRoll to="/about">About me</LinkRoll></button>
                 </Link>
             </div>
             {/* right image side */}

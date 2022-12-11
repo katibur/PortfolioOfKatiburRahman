@@ -1,8 +1,6 @@
 import React, { useContext } from 'react';
 import { Link } from 'react-router-dom';
-import { Link as LinkRoll } from 'react-scroll'
 import Toggle from '../Toggle/Toggle';
-import Resume from '../Services/resume.pdf';
 
 import './SharedNavbar.css';
 import { themeContext } from '../../Context';
@@ -20,9 +18,6 @@ const SharedNavbar = () => {
         <div className="n-left">
             <Toggle></Toggle>
         </div>
-        <a href={Resume} download>
-            <button className="n-button">Download Resume</button>
-        </a>
     </React.Fragment>
 
     return (

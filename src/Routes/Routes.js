@@ -5,6 +5,7 @@ import Blogs from "../Pages/Blogs/Blogs";
 import errorPhoto from "../Img/errorPhoto.png";
 import Main from "../Layouts/Main/Main";
 import Home from "../Pages/Home/Home";
+import ProjectDetails from "../Pages/ProjectDetails/ProjectDetails";
 
 export const router = createBrowserRouter([
     {
@@ -14,9 +15,16 @@ export const router = createBrowserRouter([
             {
                 path: '/',
                 element: <Home></Home>
-            }
+            },
+
         ]
     },
+    {
+        path: '/categories/:id',
+        loader: ({ params }) => fetch(`http://localhost:5000/categories/${params.id}`),
+        element: <ProjectDetails></ProjectDetails>
+    },
+
     {
         path: '/about',
         element: <About></About>
