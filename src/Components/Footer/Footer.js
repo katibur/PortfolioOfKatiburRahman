@@ -1,6 +1,6 @@
 import React from "react";
 import "./Footer.css";
-import Wave from "../../Img/wave.jpg";
+import Wave from "../../Img/wave.png";
 import Insta from "@iconscout/react-unicons/icons/uil-instagram";
 import Facebook from "@iconscout/react-unicons/icons/uil-facebook";
 import GitHub from "@iconscout/react-unicons/icons/uil-github";
@@ -9,7 +9,7 @@ import Linkedin from "@iconscout/react-unicons/icons/uil-linkedin"
 const Footer = () => {
     return (
         <div className="footer">
-            <img src={Wave} alt="" style={{ width: "100%" }} />
+            <img src={Wave} alt="" />
             <div className="f-content">
                 <span>All Rights Reserved By @Katibur</span>
                 <div className="f-icons">

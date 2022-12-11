@@ -121,13 +121,13 @@
          gap: 7rem;
          height: 64rem;
          margin-left: 20px;
-         margin-top: -1rem;
+         margin-top: 1rem;
      }
 
      .i-right {
          transform: scale(0.6);
          left: -4rem;
-         margin-top: -22rem;
+         margin-top: -8rem;
      }
 
      .i-right .blur {

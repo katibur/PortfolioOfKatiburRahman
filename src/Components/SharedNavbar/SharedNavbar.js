@@ -4,10 +4,10 @@ import { Link as LinkRoll } from 'react-scroll'
 import Toggle from '../Toggle/Toggle';
 import Resume from '../Services/resume.pdf';
 
-import './Navbar.css';
+import './SharedNavbar.css';
 import { themeContext } from '../../Context';
 
-const Navbar = () => {
+const SharedNavbar = () => {
 
     // context
     const theme = useContext(themeContext);
@@ -17,21 +17,6 @@ const Navbar = () => {
         <li><Link to='/'>Home</Link ></li>
         <li><Link to='/blogs'>Blogs</Link ></li>
         <li><Link to='/about'>About</Link ></li>
-        <li>
-            <LinkRoll to="services" spy={true} smooth={true}>
-                Serivces
-            </LinkRoll>
-        </li>
-        <li>
-            <LinkRoll to="portfolio" spy={true} smooth={true}>
-                Projects
-            </LinkRoll>
-        </li>
-        <li>
-            <LinkRoll to="contact" spy={true} smooth={true}>
-                Contact Me
-            </LinkRoll>
-        </li>
         <div className="n-left">
             <Toggle></Toggle>
         </div>
@@ -65,4 +50,4 @@ const Navbar = () => {
     );
 };
 
-export default Navbar;
+export default SharedNavbar;
