@@ -1,9 +1,9 @@
 import React, { useContext } from "react";
 import "./Services.css";
 import Card from "../Card/Card";
-import HeartEmoji from "../../Img/heartemoji.png";
-import Glasses from "../../Img/glasses.png";
-import Humble from "../../Img/humble.png";
+import Img1 from "../../Img/Brown Rust Modern Logo Degfcf.gif";
+import img2 from "../../Img/Brown Rust Modern Logo Design Tutorial You Tube ffdrddzr.gif";
+import img3 from "../../Img/Brown Rust Modern Logo Design Tutorial You Tube Thumbnail.gif";
 import { themeContext } from "../../Context";
 import { motion } from "framer-motion";
 import Resume from './resume.pdf';
@@ -41,44 +41,36 @@ const Services = () => {
             <div className="cards">
                 {/* first card */}
                 <motion.div
-                    initial={{ left: "35rem" }}
-                    whileInView={{ left: "25rem" }}
+                    initial={{ left: "45rem" }}
+                    whileInView={{ left: "30rem" }}
                     transition={transition}
                 >
                     <Card
-                        emoji={HeartEmoji}
-                        heading={"Design"}
-                        detail={"Figma, Sketch"}
+                        emoji={Img1}
                     />
                 </motion.div>
 
 
                 {/* second card */}
                 <motion.div
-                    initial={{ left: "6rem", top: "12rem" }}
-                    whileInView={{ left: "10rem" }}
+                    initial={{ left: "2rem", top: "12rem" }}
+                    whileInView={{ left: "7rem" }}
                     transition={transition}
                 >
                     <Card
-                        emoji={Glasses}
-                        heading={"Developer"}
-                        detail={"Html, Css, JavaScript, React, Nodejs, Express"}
+                        emoji={img2}
                     />
                 </motion.div>
 
 
                 {/* 3rd */}
                 <motion.div
-                    initial={{ top: "19rem", left: "33rem" }}
-                    whileInView={{ left: "25rem" }}
+                    initial={{ top: "19rem", left: "38rem" }}
+                    whileInView={{ left: "32rem" }}
                     transition={transition}
                 >
                     <Card
-                        emoji={Humble}
-                        heading={"UI/UX"}
-                        detail={
-                            "Flutter"
-                        }
+                        emoji={img3}
                         color="rgba(252, 166, 31, 0.45)"
                     />
                 </motion.div>

@@ -73,10 +73,12 @@
     }
 
     .cards {
+        width: 11.5rem;
         display: flex;
         flex-direction: column;
         gap: 17rem;
         margin-top: -2rem;
+        margin-left: 2.2rem;
     }
 
     .cards>* {
