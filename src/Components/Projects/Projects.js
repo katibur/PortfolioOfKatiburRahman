@@ -11,7 +11,7 @@ const Projects = () => {
     const theme = useContext(themeContext);
     const darkMode = theme?.state?.darkMode;
 
-    const url = 'http://localhost:5000/categories';
+    const url = ' https://portfolio-server-katibur.vercel.app/categories';
 
     const { data: categories = [], isLoading } = useQuery({
         queryKey: ['categories'],

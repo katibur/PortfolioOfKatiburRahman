@@ -21,7 +21,7 @@ export const router = createBrowserRouter([
     },
     {
         path: '/categories/:id',
-        loader: ({ params }) => fetch(`http://localhost:5000/categories/${params.id}`),
+        loader: ({ params }) => fetch(` https://portfolio-server-katibur.vercel.app/categories/${params.id}`),
         element: <ProjectDetails></ProjectDetails>
     },
 
