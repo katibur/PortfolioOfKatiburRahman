@@ -4,10 +4,6 @@ import "./Contact.css";
 import emailjs from "@emailjs/browser";
 import { themeContext } from "../../Context";
 
-import Phone from "@iconscout/react-unicons/icons/uil-phone"
-import Email from "@iconscout/react-unicons/icons/uil-mailbox"
-import Home from "@iconscout/react-unicons/icons/uil-home"
-
 const Contact = () => {
     const theme = useContext(themeContext);
     const darkMode = theme.state.darkMode;

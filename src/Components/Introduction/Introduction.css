@@ -77,28 +77,9 @@
  }
 
  .i-right> :nth-child(1) {
-     transform: scale(0.69);
-     left: -15%;
-     top: -9%;
- }
-
- .i-right> :nth-child(2) {
-     top: -4.6rem;
-     transform: scale(0.67);
-     left: -3rem;
- }
-
- .i-right> :nth-child(3) {
-     transform: scale(1.4);
-     left: 28%;
- }
-
- .i-right> :nth-child(4) {
-     transform: scale(0.62);
-     top: -19%;
-     left: -24%;
-     border-radius: 50%;
-     padding: 0;
+     transform: scale(1.2);
+     left: 7%;
+     top: -2%;
  }
 
  /* blur */
@@ -129,6 +110,11 @@
          left: -4rem;
          margin-top: -8rem;
      }
+     .i-right> :nth-child(1) {
+        transform: scale(1.8);
+        left: 45%;
+        top: -30%;
+    }
 
      .i-right .blur {
          display: none;

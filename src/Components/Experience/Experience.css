@@ -51,5 +51,6 @@
     .experience {
         transform: scale(0.7);
         margin-bottom: 20px;
+        margin-top: -12rem;
     }
 }
