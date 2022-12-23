@@ -1,31 +1,18 @@
 import React, { useContext } from "react";
 import './Introduction.css';
-
 import boy from "../../Img/profile.gif";
-
 import { themeContext } from "../../Context";
-
-// import crown from "../../Img/crown.png";
-// import { motion } from "framer-motion";
-// import FloatingDiv from "../FloatingDiv/FloatingDiv";
 
 import { Link as LinkRoll } from 'react-router-dom';
 import { Link } from 'react-scroll'
 
-
-
 import { Typewriter } from 'react-simple-typewriter'
 
-
-
 const Introduction = () => {
-    // // Transition
-    // const transition = { duration: 2, type: "spring" };
 
     // context
     const theme = useContext(themeContext);
     const darkMode = theme?.state?.darkMode;
-
 
 
     return (
@@ -51,8 +38,8 @@ const Introduction = () => {
                         development, producing the Quality work.
                     </span>
                 </div>
-                <Link to="contact" smooth={true} spy={true}>
-                    <button className="button i-button"><LinkRoll to="/about">About me</LinkRoll></button>
+                <Link to="contact">
+                    <button className="button i-button"><LinkRoll to='/about'>About Me</LinkRoll ></button>
                 </Link>
             </div>
 
