@@ -1,9 +1,9 @@
 import React, { useContext } from "react";
 import "./Services.css";
 import Card from "../Card/Card";
-import Img1 from "../../Img/Brown Rust Modern Logo Degfcf.gif";
-import img2 from "../../Img/Brown Rust Modern Logo Design Tutorial You Tube ffdrddzr.gif";
-import img3 from "../../Img/Brown Rust Modern Logo Design Tutorial You Tube Thumbnail.gif";
+import Img1 from "../../Img/design.gif";
+import img2 from "../../Img/ui.gif";
+import img3 from "../../Img/skills.gif";
 import { themeContext } from "../../Context";
 import { motion } from "framer-motion";
 import Resume from './resume.pdf';
@@ -41,8 +41,8 @@ const Services = () => {
             <div className="cards">
                 {/* first card */}
                 <motion.div
-                    initial={{ left: "45rem" }}
-                    whileInView={{ left: "30rem" }}
+                    initial={{ left: "52rem" }}
+                    whileInView={{ left: "35rem" }}
                     transition={transition}
                 >
                     <Card
