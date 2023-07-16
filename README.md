@@ -1,4 +1,4 @@
-# Live Site: https://portfolio-of-s-m-katibur-rahman.netlify.app/
+# Live Site: https://s-m-katibur-rahman.netlify.app/
 
 ## Technologies:
 --------------
